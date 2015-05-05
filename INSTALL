@@ -1,0 +1,9 @@
+Building IslaCoin
+
+See doc/readme-qt.rst for instructions on building IslaCoin QT,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of IslaCoin.
+
+See doc/build-*.txt for instructions on building islacoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of IslaCoin.
