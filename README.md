@@ -2,7 +2,7 @@
 - Block time: 60 seconds
 - Max Supply: 35129400 ISL
 - Block reward: 75-95
-- PoW Supply: 3512940 ISL
+- PoW Supply: 1494807 ISL
 - Last PoW block: 44640
 - PoS Interest: 12% per year
 - RPC Port: 9831
