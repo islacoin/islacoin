@@ -2116,7 +2116,7 @@ bool CBlock::AcceptBlock()
     CBlockIndex* pindexPrev = (*mi).second;
     int nHeight = pindexPrev->nHeight+1;
     
-    if (IsProofOfWork() && nHeight > 115500)
+    if (IsProofOfWork() && nHeight > FORK_BLOCK)
         return DoS(100, error("AcceptBlock() : reject proof-of-work at height %d", nHeight));
     
     if (IsProofOfStake() && nHeight < MODIFIER_INTERVAL_SWITCH)
